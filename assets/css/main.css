@@ -1,16 +1,76 @@
+@import url("../css/fontello.css");
 *{
   font-family: helvetica;
   margin: 0;
   padding: 0;
 }
+body{
+  background: #f5f8fa;
+  color: #ababab;
+}
 header{
   background: #fff;
   width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+a{
+  text-decoration: none;
+}
+aside{
+  width: 80%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  overflow: auto;
+}
+form{
+  width: 100%;
+  margin-top: 40px;
 }
 .container{
   margin: 0 5%;
+  padding: 10px;
+}
+.left{
+  float: left;
 }
 .nav-box, .box-section{
   float: left;
   width: 30%;
+}
+#btnTwittear{
+  background-color: #0094b3;
+  color: #fff;
+  border: none;
+  padding: 7px;
+}
+.portada{
+  background-color: #0094b3;
+  height: 80px;
+}
+.datos-perfil{
+  /*position: relative;*/
+  /*overflow: auto;*/
+}
+.datos-perfil img{
+  margin: -30px 10px 10px 10px;;
+  float: left;
+  border: 2px solid #fff;
+  /*z-index: 1;*/
+}
+
+.datos-perfil .user{
+  margin: 10px 0;
+  color: #000;
+}
+.kpi{
+  font-size: 12px;
+  margin: 0 20px 10px 10px;
+}
+.kpi p:nth-child(2){
+  color: #0094b3;
+  font-size: 1.5em;
 }
