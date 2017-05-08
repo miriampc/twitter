@@ -226,9 +226,10 @@ form{
   display: inline;
 }
 .a-quien-seguir > div{
-  position: relative;
   clear: both;
-  top:14px;
+  position: relative;
+  /*top:14px;*/
+  margin: 10px 0;
 }
 .icon-cancel{
   position: absolute;
@@ -238,4 +239,9 @@ form{
 }
 .a-quien-seguir > div div{
   margin-left: 10px;
+}
+
+
+.sobre-twitter{
+  padding: 10px;
 }
