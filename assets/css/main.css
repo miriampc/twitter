@@ -47,11 +47,14 @@ form{
 }
 .link:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 .light-blue{
   color: #0099B9;
 }
-
+.black{
+  color: #000;
+}
 .nav-box{
   float: left;
   width: 33%;
@@ -241,7 +244,6 @@ form{
 .a-quien-seguir > div div{
   margin-left: 10px;
 }
-
 
 .sobre-twitter{
   padding: 10px;
