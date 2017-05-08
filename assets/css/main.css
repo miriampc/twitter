@@ -22,7 +22,6 @@ a{
   color:#66757f;
 }
 aside, article{
-  /*width: 100%;*/
   border-radius: 5px;
   overflow: auto;
   background: #fff;
@@ -62,7 +61,7 @@ form{
    width: 25%;
  }
 .box-section-middle{
-   width: 50%;
+   width: 48%;
    margin: 0 10px;
  }
 
@@ -117,10 +116,7 @@ form{
   background-color: #0094b3;
   height: 80px;
 }
-.datos-perfil{
-  /*position: relative;*/
-  /*overflow: auto;*/
-}
+
 .datos-perfil img{
   margin: -30px 10px 10px 10px;;
   float: left;
@@ -146,8 +142,12 @@ form{
   padding: 10px 0 10px 10px;
   font-size: .8em;
 }
+.tendencias h4{
+  font-size: 1.4em;
+  display: inline;
+}
 .tendencias span{
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 14px 0;
 }
 .tendencias p{
@@ -215,5 +215,27 @@ form{
 
 /*Lateral right*/
 .a-quien-seguir{
-
+  padding: 10px;
+}
+.a-quien-seguir h4{
+  font-size: 1.1em;
+  display: inline;
+}
+.a-quien-seguir span{
+  font-size: .8em;
+  display: inline;
+}
+.a-quien-seguir > div{
+  position: relative;
+  clear: both;
+  top:14px;
+}
+.icon-cancel{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: #afafaf;
+}
+.a-quien-seguir > div div{
+  margin-left: 10px;
 }
