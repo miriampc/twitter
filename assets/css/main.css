@@ -230,6 +230,7 @@ form{
   position: relative;
   /*top:14px;*/
   margin: 10px 0;
+  overflow: auto;
 }
 .icon-cancel{
   position: absolute;

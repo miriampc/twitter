@@ -68,7 +68,7 @@
 .icon-down:before { content: '\f004'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-bell:before { content: '\f0f3'; } /* '' */
-.icon-user-plus:before { content: '\f234'; } /* '' */
+.icon-user-plus:before { content: '\f234'; color: #0099B9;} /* '' */
 
 .icon-heart:hover{
   color: #e2264d;
